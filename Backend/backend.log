@@ -1,0 +1,166 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5000
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /mnt/c/Users/praja/MyProject/Pathlock/TaskManager/Backend
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/api/tasks - - -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.GetTasks (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetTasks", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[TaskManager.Models.TaskItem]] GetTasks() on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManager.Models.TaskItem, TaskManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.GetTasks (TaskManager) in 24.8002ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.GetTasks (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5000/api/tasks - 200 - application/json;+charset=utf-8 67.5792ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/api/tasks - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.GetTasks (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetTasks", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[TaskManager.Models.TaskItem]] GetTasks() on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManager.Models.TaskItem, TaskManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.GetTasks (TaskManager) in 4.4585ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.GetTasks (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5000/api/tasks - 200 - application/json;+charset=utf-8 23.4088ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:5000/api/tasks - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.GetTasks (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "GetTasks", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[TaskManager.Models.TaskItem]] GetTasks() on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskManager.Models.TaskItem, TaskManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.GetTasks (TaskManager) in 0.5161ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.GetTasks (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 GET http://localhost:5000/api/tasks - 200 - application/json;+charset=utf-8 4.3005ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/tasks - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/tasks - 204 - - 1.2620ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:5000/api/tasks - application/json 52
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.CreateTask (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "CreateTask", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[TaskManager.Models.TaskItem] CreateTask(TaskManager.Models.TaskItem) on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing CreatedAtActionResult, writing value of type 'TaskManager.Models.TaskItem'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.CreateTask (TaskManager) in 36.6567ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.CreateTask (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:5000/api/tasks - 201 - application/json;+charset=utf-8 49.6886ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/tasks/1 - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/tasks/1 - 204 - - 0.4029ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 PUT http://localhost:5000/api/tasks/1 - - 0
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.UpdateTask (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "UpdateTask", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[TaskManager.Models.TaskItem] UpdateTask(Int32) on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing OkObjectResult, writing value of type 'TaskManager.Models.TaskItem'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.UpdateTask (TaskManager) in 2.2684ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.UpdateTask (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 PUT http://localhost:5000/api/tasks/1 - 200 - application/json;+charset=utf-8 4.6170ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/tasks - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/tasks - 204 - - 0.9313ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 POST http://localhost:5000/api/tasks - application/json 41
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.CreateTask (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "CreateTask", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[TaskManager.Models.TaskItem] CreateTask(TaskManager.Models.TaskItem) on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing CreatedAtActionResult, writing value of type 'TaskManager.Models.TaskItem'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.CreateTask (TaskManager) in 3.6725ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.CreateTask (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 POST http://localhost:5000/api/tasks - 201 - application/json;+charset=utf-8 4.4600ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/tasks/1 - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/tasks/1 - 204 - - 0.2500ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 DELETE http://localhost:5000/api/tasks/1 - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.DeleteTask (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "DeleteTask", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteTask(Int32) on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing StatusCodeResult, setting HTTP status code 204
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.DeleteTask (TaskManager) in 7.3786ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.DeleteTask (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 DELETE http://localhost:5000/api/tasks/1 - 204 - - 9.9082ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 OPTIONS http://localhost:5000/api/tasks/2 - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 OPTIONS http://localhost:5000/api/tasks/2 - 204 - - 0.3226ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 DELETE http://localhost:5000/api/tasks/2 - - -
+info: Microsoft.AspNetCore.Cors.Infrastructure.CorsService[4]
+      CORS policy execution successful.
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'TaskManager.Controllers.TasksController.DeleteTask (TaskManager)'
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[102]
+      Route matched with {action = "DeleteTask", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult DeleteTask(Int32) on controller TaskManager.Controllers.TasksController (TaskManager).
+info: Microsoft.AspNetCore.Mvc.StatusCodeResult[1]
+      Executing StatusCodeResult, setting HTTP status code 204
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker[105]
+      Executed action TaskManager.Controllers.TasksController.DeleteTask (TaskManager) in 0.7548ms
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'TaskManager.Controllers.TasksController.DeleteTask (TaskManager)'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/1.1 DELETE http://localhost:5000/api/tasks/2 - 204 - - 1.2281ms
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
