@@ -2,6 +2,8 @@
 
 A simple task management application built with .NET 8 Web API backend and React TypeScript frontend.
 
+![My Photo](https://github.com/mahendr555/Task_Manager/blob/main/Screenshot%20(25).png)
+
 ## Project Structure
 
 ```
